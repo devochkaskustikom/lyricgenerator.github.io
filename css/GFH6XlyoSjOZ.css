@@ -1,0 +1,11 @@
+ul, ol {
+    margin: 10px 0;
+}
+
+ul li, ol li {
+    margin-top: 8px;
+}
+
+ul li:first-child, ol li:first-child {
+    margin-top: 0;
+}

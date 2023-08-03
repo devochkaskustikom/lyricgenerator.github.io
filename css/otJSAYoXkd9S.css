@@ -1,0 +1,252 @@
+.AppHeader_appBar__gzgTI {
+	background-color: #343a40!important
+}
+
+.AppHeader_logo__2rEis {
+	color: #000;
+	font-size: 28px!important
+}
+
+.AppHeader_button__1lzv1,
+.AppHeader_select__L2r9i {
+	color: #999!important;
+	transition: .2s ease-in-out!important
+}
+
+.AppHeader_button__1lzv1:hover,
+.AppHeader_select__L2r9i:hover {
+	color: rgb(204, 15, 141)!important
+}
+
+.AppHeader_button__1lzv1 {
+	margin-right: 20px!important;
+	text-transform: none!important
+}
+
+.Player_container__2-z7F {
+	display: flex;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 4px;
+	overflow: hidden
+}
+
+.Player_container__2-z7F.Player_isDisabled__1RzKP {
+	opacity: 0;
+	visibility: hidden
+}
+
+.Player_container__2-z7F .Player_buttonContainer__3P0SV {
+	display: flex;
+	align-items: center;
+	background: #efefef
+}
+
+.Player_container__2-z7F .Player_playPauseButton__36CDv {
+	margin: 10px;
+	color: #fafafa;
+	background: rgb(204, 15, 141)
+}
+
+.Player_container__2-z7F .Player_playPauseButton__36CDv:hover {
+	background: rgb(204, 15, 141)
+}
+
+.Player_container__2-z7F .Player_playPauseButton__36CDv.Player_isDisabled__1RzKP {
+	color: #fafafa;
+	background: rgba(204, 15, 141, 0.2)
+}
+
+.Player_content__2puHM {
+	background: #efefef;
+	padding: 0 10px;
+	margin-left: 5px;
+	position: relative;
+	flex: 1 1;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.Player_progress__1trAA {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	padding: 10px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: .2s ease-in-out
+}
+
+.Player_progress__1trAA.Player_isProgress__3ZaLU {
+	visibility: visible;
+	opacity: 1
+}
+
+.Player_dragDropMessage__3l6xU {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	border: 3px solid transparent;
+	transition: .2s ease-in-out
+}
+
+.Player_dragDropMessage__3l6xU.Player_isDragEnter__2csAd {
+	border: 3px dashed #2979ff
+}
+
+.Player_waveForm__1NeSa {
+	width: 100%
+}
+
+.AppContent_levels__1qutI {
+	margin: 40px auto 0;
+	max-width: 700px;
+	font-size: 22px;
+	text-align: center
+}
+
+.AppContent_levels__1qutI .AppContent_level__2n2EA {
+	font-size: inherit
+}
+
+.AppContent_levels__1qutI .AppContent_divider__rMeYD {
+	content: " ";
+	margin-bottom: 40px
+}
+
+.AppContent_fields__2VLYy {
+	margin: 40px auto!important;
+	width: 700px
+}
+
+.AppContent_fields__2VLYy .AppContent_meta__16H3x {
+	display: flex;
+	justify-content: space-between
+}
+
+.AppContent_fields__2VLYy .AppContent_meta__16H3x .AppContent_field__yq76b {
+	font-size: 20px;
+	width: 320px
+}
+
+.AppContent_fields__2VLYy .AppContent_area__6Vf0F {
+	margin-top: 40px
+}
+
+.AppContent_fields__2VLYy .AppContent_area__6Vf0F .AppContent_areaField__2MDMF {
+	font-size: 24px
+}
+
+.AppContent_fields__2VLYy .AppContent_area__6Vf0F .AppContent_areaField__2MDMF textarea {
+	overflow: hidden
+}
+
+.AppContent_fields__2VLYy .AppContent_text__2ig0O {
+	margin-top: 40px;
+	font-size: 24px
+}
+
+.AppContent_fields__2VLYy .AppContent_text__2ig0O .AppContent_textStr__1UykT {
+	display: inline-block;
+	padding: 0 5px;
+	border-left: 2px solid transparent;
+	transition: .2s ease-in-out
+}
+
+.AppContent_fields__2VLYy .AppContent_text__2ig0O .AppContent_textStrIsSelected__QpIb3 {
+	border-left: 2px solid #cc0f8d
+}
+
+.AppContent_fields__2VLYy .AppContent_text__2ig0O .AppContent_textStrIsSelected__QpIb3.AppContent_isPressed__1ev-c {
+	color: #fff;
+	background: #d9781c
+}
+
+.AppContent_playerResetContainer__EoMZ3 {
+	width: 500px;
+	margin: 0 auto;
+	text-align: right;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	max-height: 0;
+	transition: .5s ease-in-out
+}
+
+.AppContent_playerResetContainer__EoMZ3.AppContent_isVisible___lgqV {
+	opacity: 1;
+	visibility: visible;
+	max-height: 31px
+}
+
+.AppContent_playerResetContainer__EoMZ3 .AppContent_playerReset__1X6ic {
+	margin: 0 10px;
+	font-size: 8pt;
+	color: #fff;
+	background: #d9781c;
+	display: inline-flex;
+	height: 25.2px;
+	border-radius: 5px 5px 0 0;
+	padding: 0 10px;
+	align-items: center;
+	justify-content: center
+}
+
+.AppContent_playerResetContainer__EoMZ3 .AppContent_playerReset__1X6ic:hover {
+	background: rgba(204, 15, 141, .81)
+}
+
+.AppContent_playerStatusContainer__3vKRd {
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 8pt
+}
+
+.AppContent_playerStatusContainer__3vKRd .AppContent_playerStatus__1WvoJ {
+	margin: 0 10px;
+	color: #fff;
+	background: #cc0f8d;
+	display: inline-flex;
+	border-radius: 5px 5px 0 0;
+	padding: 5px 10px;
+	min-width: 150px;
+	align-items: center;
+	justify-content: center
+}
+
+.AppContent_playerStatusContainer__3vKRd .AppContent_playerStatus__1WvoJ.AppContent_isRec__1VZHX {
+	background: red
+}
+
+.AppContent_success__1SR1g {
+	margin: 160px auto!important;
+	width: 700px;
+	text-align: center
+}
+
+.AppContent_success__1SR1g .AppContent_message__2-1mM {
+	margin-top: 40px
+}
+
+.AppContent_success__1SR1g .AppContent_message__2-1mM .AppContent_icon__2Nnvx {
+	margin-right: 7px
+}
+
+.AppContent_success__1SR1g .AppContent_message__2-1mM .AppContent_link__15vDr {
+	margin-top: 10px
+}
